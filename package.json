@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/LEEBONGHAK/typescriptchain",
   "author": "octo <dlqhdgkr456@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }

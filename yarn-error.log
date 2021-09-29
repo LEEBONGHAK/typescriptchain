@@ -1,0 +1,44 @@
+Arguments: 
+  /home/octo/.nvm/versions/node/v14.16.0/bin/node /home/octo/.nvm/versions/node/v14.16.0/bin/yarn start
+
+PATH: 
+  /home/octo/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/bin:/home/octo/.nvm/versions/node/v14.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/CambridgeSoft/ChemOffice2015/ChemScript/Lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NAT Service:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Teruten/DSFilter:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/lang/gcc/mingw64/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Users/이봉학/AppData/Local/Programs/Python/Python35-32/Scripts/:/mnt/c/Users/이봉학/AppData/Local/Programs/Python/Python35-32/:/mnt/c/Users/이봉학/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/이봉학/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/이봉학/.dotnet/tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/octo/Documents/typescriptchain/package.json: Unexpected token / in JSON at position 293
+      at JSON.parse (<anonymous>)
+      at /home/octo/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/octo/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/octo/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "typescriptchain",
+    "version": "1.0.0",
+    "description": "Learning Typscript by making a Blockchain with it",
+    "main": "index.js",
+    "repository": "https://github.com/LEEBONGHAK/typescriptchain",
+    "author": "octo <dlqhdgkr456@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      // yarn start 명령어를 사용하기 위해(index.ts를 컴파일하고 실행)
+      "start": "node index.js",
+      "prestart": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
