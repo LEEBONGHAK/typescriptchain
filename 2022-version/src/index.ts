@@ -1,4 +1,4 @@
-import { exit, init } from "myPackage";
+import { exit } from "./myPackage";
 
 class Block {
 	constructor(private data: string) {}
@@ -6,9 +6,5 @@ class Block {
 		return 'hi';
 	}
 }
-
-init({
-	url: 'hello'
-});
 
 exit(1);
